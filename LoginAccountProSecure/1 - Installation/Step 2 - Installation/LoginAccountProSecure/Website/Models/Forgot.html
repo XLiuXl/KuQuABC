@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Forgot</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+		<link rel="stylesheet" href="./CSS/Main.css" type="text/css" />
+		<link rel="stylesheet" href="./CSS/Forgot.css" type="text/css" />
+		<script type="text/javascript" src="./Javascript/Utils/jquery.min.javascript"></script>
+		<script type="text/javascript" src="./Javascript/Utils/RSA/jsbn.javascript"></script>
+		<script type="text/javascript" src="./Javascript/Utils/RSA/prng4.javascript"></script>
+		<script type="text/javascript" src="./Javascript/Utils/RSA/rng.javascript"></script>
+		<script type="text/javascript" src="./Javascript/Utils/RSA/rsa.javascript"></script>
+		<script type="text/javascript" src="./Javascript/Utils/RSA/base64.javascript"></script>
+		<script type="text/javascript" src="./Javascript/Utils/AES/pbkdf2.javascript"></script>
+		<script type="text/javascript" src="./Javascript/Utils/AES/sha256.javascript"></script>
+		<script type="text/javascript" src="./Javascript/Utils/AES/aes.javascript"></script>
+		<script type="text/javascript" src="./Javascript/Utils/Utils.javascript"></script>
+		<script type="text/javascript" src="./Javascript/Utils/Sessvars.javascript"></script>
+		<script type="text/javascript" src="./Javascript/Forgot.javascript"></script>
+	</head>
+	<body>
+		<div id="RedEagleIconBlock">
+			<img id="RedEagleIcon" src="./Resources/RedEagleIcon.png" alt="RedEagleIcon.png"/>
+		</div>
+		
+		<div id="InputBlock" class="formBlock">
+			<form id="InputForm" action="./Server.php" method="post" class="form">
+				<label for="input_mail" class="label">Your email address</label><br/>
+				<input id="input_mail" name="input_mail" type="text" value="" class="input" placeholder="No mail saved"/><br/>
+				<input id="input_submit" type="submit" value="Send information" class="button"/>
+			</form>
+		</div>
+		<div id="ForgotBlock" class="hidden">
+			<form id="actionForm" action="./Server.php" method="post" class="hidden">
+				<input id="SID" name="SID" type="hidden" value=""/>
+				<input id="ACTION" name="ACTION" type="hidden" value="{ACTION}"/>
+				<input id="AES_KEYS" name="AES_KEYS" type="hidden" value=""/>
+				<input id="MAIL" name="MAIL" type="text" value=""/><br/>
+				<input id="SUBMIT" type="submit" value="Send information"/>
+			</form>
+		</div>
+		
+		<div id="backButton" class="linkBlock">
+			<a href="./Authentification.php" class="link">Back</a>
+		</div>
+		
+		<p id="ERROR" class="message"></p>
+		<p class="message">{MESSAGE}</p>
+	</body>
+</html>

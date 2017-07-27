@@ -1,0 +1,285 @@
+fileFormatVersion: 2
+guid: bc6da75658b331942b950cb3a62d89fe
+timeCreated: 1462778105
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: IndexFinger1_R
+    100002: IndexFinger2_R
+    100004: IndexFinger3_R
+    100006: IndexFinger4_R
+    100008: MiddleFinger1_R
+    100010: MiddleFinger2_R
+    100012: MiddleFinger3_R
+    100014: MiddleFinger4_R
+    100016: PinkyFinger1_R
+    100018: PinkyFinger2_R
+    100020: PinkyFinger3_R
+    100022: PinkyFinger4_R
+    100024: //RootNode
+    100026: R
+    100028: R_MeshPart0
+    100030: R_MeshPart1
+    100032: RingFinger1_R
+    100034: RingFinger2_R
+    100036: RingFinger3_R
+    100038: RingFinger4_R
+    100040: ThumbFinger1_R
+    100042: ThumbFinger2_R
+    100044: ThumbFinger3_R
+    100046: ThumbFinger4_R
+    100048: Wrist_R
+    400000: IndexFinger1_R
+    400002: IndexFinger2_R
+    400004: IndexFinger3_R
+    400006: IndexFinger4_R
+    400008: MiddleFinger1_R
+    400010: MiddleFinger2_R
+    400012: MiddleFinger3_R
+    400014: MiddleFinger4_R
+    400016: PinkyFinger1_R
+    400018: PinkyFinger2_R
+    400020: PinkyFinger3_R
+    400022: PinkyFinger4_R
+    400024: //RootNode
+    400026: R
+    400028: R_MeshPart0
+    400030: R_MeshPart1
+    400032: RingFinger1_R
+    400034: RingFinger2_R
+    400036: RingFinger3_R
+    400038: RingFinger4_R
+    400040: ThumbFinger1_R
+    400042: ThumbFinger2_R
+    400044: ThumbFinger3_R
+    400046: ThumbFinger4_R
+    400048: Wrist_R
+    4300000: R_MeshPart0
+    4300002: R_MeshPart1
+    7400000: idle
+    7400002: pick
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: R_MeshPart0
+    13700002: R_MeshPart1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: R
+        weight: 1
+      - path: R/R_MeshPart0
+        weight: 1
+      - path: R/R_MeshPart1
+        weight: 1
+      - path: Wrist_R
+        weight: 1
+      - path: Wrist_R/IndexFinger1_R
+        weight: 1
+      - path: Wrist_R/IndexFinger1_R/IndexFinger2_R
+        weight: 1
+      - path: Wrist_R/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R
+        weight: 1
+      - path: Wrist_R/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R/IndexFinger4_R
+        weight: 1
+      - path: Wrist_R/MiddleFinger1_R
+        weight: 1
+      - path: Wrist_R/MiddleFinger1_R/MiddleFinger2_R
+        weight: 1
+      - path: Wrist_R/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R
+        weight: 1
+      - path: Wrist_R/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R/MiddleFinger4_R
+        weight: 1
+      - path: Wrist_R/PinkyFinger1_R
+        weight: 1
+      - path: Wrist_R/PinkyFinger1_R/PinkyFinger2_R
+        weight: 1
+      - path: Wrist_R/PinkyFinger1_R/PinkyFinger2_R/PinkyFinger3_R
+        weight: 1
+      - path: Wrist_R/PinkyFinger1_R/PinkyFinger2_R/PinkyFinger3_R/PinkyFinger4_R
+        weight: 1
+      - path: Wrist_R/RingFinger1_R
+        weight: 1
+      - path: Wrist_R/RingFinger1_R/RingFinger2_R
+        weight: 1
+      - path: Wrist_R/RingFinger1_R/RingFinger2_R/RingFinger3_R
+        weight: 1
+      - path: Wrist_R/RingFinger1_R/RingFinger2_R/RingFinger3_R/RingFinger4_R
+        weight: 1
+      - path: Wrist_R/ThumbFinger1_R
+        weight: 1
+      - path: Wrist_R/ThumbFinger1_R/ThumbFinger2_R
+        weight: 1
+      - path: Wrist_R/ThumbFinger1_R/ThumbFinger2_R/ThumbFinger3_R
+        weight: 1
+      - path: Wrist_R/ThumbFinger1_R/ThumbFinger2_R/ThumbFinger3_R/ThumbFinger4_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pick
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: R
+        weight: 1
+      - path: R/R_MeshPart0
+        weight: 1
+      - path: R/R_MeshPart1
+        weight: 1
+      - path: Wrist_R
+        weight: 1
+      - path: Wrist_R/IndexFinger1_R
+        weight: 1
+      - path: Wrist_R/IndexFinger1_R/IndexFinger2_R
+        weight: 1
+      - path: Wrist_R/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R
+        weight: 1
+      - path: Wrist_R/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R/IndexFinger4_R
+        weight: 1
+      - path: Wrist_R/MiddleFinger1_R
+        weight: 1
+      - path: Wrist_R/MiddleFinger1_R/MiddleFinger2_R
+        weight: 1
+      - path: Wrist_R/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R
+        weight: 1
+      - path: Wrist_R/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R/MiddleFinger4_R
+        weight: 1
+      - path: Wrist_R/PinkyFinger1_R
+        weight: 1
+      - path: Wrist_R/PinkyFinger1_R/PinkyFinger2_R
+        weight: 1
+      - path: Wrist_R/PinkyFinger1_R/PinkyFinger2_R/PinkyFinger3_R
+        weight: 1
+      - path: Wrist_R/PinkyFinger1_R/PinkyFinger2_R/PinkyFinger3_R/PinkyFinger4_R
+        weight: 1
+      - path: Wrist_R/RingFinger1_R
+        weight: 1
+      - path: Wrist_R/RingFinger1_R/RingFinger2_R
+        weight: 1
+      - path: Wrist_R/RingFinger1_R/RingFinger2_R/RingFinger3_R
+        weight: 1
+      - path: Wrist_R/RingFinger1_R/RingFinger2_R/RingFinger3_R/RingFinger4_R
+        weight: 1
+      - path: Wrist_R/ThumbFinger1_R
+        weight: 1
+      - path: Wrist_R/ThumbFinger1_R/ThumbFinger2_R
+        weight: 1
+      - path: Wrist_R/ThumbFinger1_R/ThumbFinger2_R/ThumbFinger3_R
+        weight: 1
+      - path: Wrist_R/ThumbFinger1_R/ThumbFinger2_R/ThumbFinger3_R/ThumbFinger4_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

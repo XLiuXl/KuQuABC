@@ -1,0 +1,4 @@
+If you want to use crossdomain, like WebGL or webplayer :
+Just place the file "crossdomain.xml" in your "public_html" folder (on your server)
+
+That's all ;)

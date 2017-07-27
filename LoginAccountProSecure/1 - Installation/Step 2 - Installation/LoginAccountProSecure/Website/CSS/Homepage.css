@@ -1,0 +1,77 @@
+
+#PostBlock
+{
+	width:800px;
+	min-height:200px;
+	margin:auto;
+	padding:0px;
+	text-align:left;
+}
+
+.title
+{
+	margin-bottom:70px;
+	text-align:center;
+	color:rgb(200,200,200);
+	font-family:Calibri, Arial;
+	font-size:200%;
+}
+.info
+{
+	width:700px;
+	height:60px;
+	margin:auto;
+	padding:0px;
+	text-align:left;
+	overflow:hidden;
+	text-align:center;
+	color:rgb(200,200,200);
+	font-family:Calibri, Arial;
+	font-size:120%;
+}
+
+#ModifyBlock
+{
+	float:right;
+	margin:0px;
+	margin-right:-360px;
+	margin-top:300px;
+}
+#ModifyBlock a
+{
+	margin-bottom:20px;
+}
+
+#ModifyLabel
+{
+	font-size:120%;
+	margin-bottom:30px;
+}
+
+#disconnectButton
+{
+	float:left;
+	margin:0px;
+	margin-left:-330px;
+	margin-top:-340px;
+}
+#input_submit
+{
+	margin-top:70px;
+}
+
+#RedEagleIconBlock
+{
+	float:left;
+	max-width:60px;
+	max-height:60px;
+	margin:0px;
+	margin-left:220px;
+	margin-top:-335px;
+	overflow:visible;
+}
+#RedEagleIcon
+{
+	max-width:100%;
+	max-height:100%;
+}

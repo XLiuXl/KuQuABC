@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Homepage</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+		<link rel="stylesheet" href="./CSS/Main.css" type="text/css" />
+		<link rel="stylesheet" href="./CSS/Homepage.css" type="text/css" />
+		<script type="text/javascript" src="./Javascript/Utils/jquery.min.javascript"></script>
+		<script type="text/javascript" src="./Javascript/Utils/AES/pbkdf2.javascript"></script>
+		<script type="text/javascript" src="./Javascript/Utils/AES/sha256.javascript"></script>
+		<script type="text/javascript" src="./Javascript/Utils/AES/aes.javascript"></script>
+		<script type="text/javascript" src="./Javascript/Utils/Utils.javascript"></script>
+		<script type="text/javascript" src="./Javascript/Utils/Sessvars.javascript"></script>
+		<script type="text/javascript" src="./Javascript/Homepage.javascript"></script>
+	</head>
+	<body>
+		
+		<div id="PostBlock" class="linkBlock">
+			<p class="title">Welcome! Enjoy full security!</p>
+			<p class="info"> <span>SID = </span> <span id="SID"></span> </p>
+			<p class="info"> <span>USERNAME = </span> <span class="Encrypted">{USERNAME}</span> </p>
+			<p class="info"> <span>PASSWORD = </span> <span class="Encrypted">{PASSWORD}</span> </p>
+			<br />
+			<p class="info"> <span>DATA1 (if any) = </span> <span class="Encrypted">{DATA1}</span> </p>
+		</div>
+		
+		<div id="ModifyBlock" class="linkBlock">
+			<p id="ModifyLabel" class="label">Modify my information</p>
+			<a href="./Modify.php" class="link">Modify</a>
+		</div>
+		
+		<div id="disconnectButton" class="linkBlock">
+			<a href="./Authentification.php" class="link">Disconnect</a>
+		</div>
+		
+		<p class="message">{MESSAGE}</p>
+	</body>
+</html>

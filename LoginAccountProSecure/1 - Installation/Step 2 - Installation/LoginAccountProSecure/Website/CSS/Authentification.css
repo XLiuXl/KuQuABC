@@ -1,0 +1,44 @@
+
+
+
+#RegisterBlock
+{
+	float:right;
+	margin:0px;
+	margin-right:-300px;
+	margin-top:340px;
+}
+#RegisterBlock a
+{
+	margin-bottom:20px;
+}
+#RegisterButton
+{
+    background:#09117a;
+}
+#RegisterButton:hover
+{
+    background: rgba(100,100,100,0.7);
+}
+
+#RegisterLabel
+{
+	font-size:130%;
+	margin-bottom:15px;
+}
+
+#RedEagleIconBlock
+{
+	float:left;
+	width:60px;
+	height:60px;
+	margin:0px;
+	margin-left:220px;
+	margin-top:-155px;
+	overflow:visible;
+}
+#RedEagleIcon
+{
+	max-width:100%;
+	max-height:100%;
+}

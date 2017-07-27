@@ -1,0 +1,16 @@
+
+
+	1 - Add all the scenes you will find below in the build settings (in Unity : File -> Build Settings...)
+			Your Build Settings should look like that :
+			"1 - Launch me first"
+			"2 - Rename htaccess files"
+			"3 - Send files on the server"
+			"4 - Verify server URL"
+			"5 - GameVersion + HashCode"
+			"6 - Verify RSA security"
+			"7 - Verify AES security"
+			"8 - Install database"
+			"9 - Verify database"
+			"Finally"
+			
+	2 - Save, close the Build Settings and launch the scene called "1 - Launch me first" and follow the steps.

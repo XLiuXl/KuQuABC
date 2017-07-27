@@ -1,0 +1,1 @@
+Go to the menu Window->Alloy->Documentation for setup instructions and a reference for all things Alloy.

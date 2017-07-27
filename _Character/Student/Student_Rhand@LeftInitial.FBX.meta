@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: 8993922b28791e44e89169b3142cf471
+timeCreated: 1470817702
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Elbow_L
+    100002: hand_L
+    100004: MiddleFinger1_L
+    100006: MiddleFinger2_L
+    100008: MiddleFinger3_L
+    100010: MiddleFinger4_L
+    100012: MiddleFinger5_L
+    100014: MiddleFinger6_L
+    100016: PinkyFinger1_L
+    100018: PinkyFinger2_L
+    100020: PinkyFinger3_L
+    100022: PinkyFinger4_L
+    100024: PinkyFinger5_L
+    100026: PinkyFinger6_L
+    100028: //RootNode
+    100030: ThumbFinger1_L
+    100032: ThumbFinger2_L
+    100034: ThumbFinger3_L
+    100036: ThumbFinger4_L
+    100038: ThumbFinger5_L
+    100040: ThumbFinger6_L
+    100042: Wrist_L
+    400000: Elbow_L
+    400002: hand_L
+    400004: MiddleFinger1_L
+    400006: MiddleFinger2_L
+    400008: MiddleFinger3_L
+    400010: MiddleFinger4_L
+    400012: MiddleFinger5_L
+    400014: MiddleFinger6_L
+    400016: PinkyFinger1_L
+    400018: PinkyFinger2_L
+    400020: PinkyFinger3_L
+    400022: PinkyFinger4_L
+    400024: PinkyFinger5_L
+    400026: PinkyFinger6_L
+    400028: //RootNode
+    400030: ThumbFinger1_L
+    400032: ThumbFinger2_L
+    400034: ThumbFinger3_L
+    400036: ThumbFinger4_L
+    400038: ThumbFinger5_L
+    400040: ThumbFinger6_L
+    400042: Wrist_L
+    4300000: hand_L
+    7400000: LeftInitial
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: hand_L
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: LeftInitial
+      takeName: Take 001
+      firstFrame: 270
+      lastFrame: 285
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Elbow_L
+        weight: 1
+      - path: Elbow_L/Wrist_L
+        weight: 1
+      - path: Elbow_L/Wrist_L/MiddleFinger1_L
+        weight: 1
+      - path: Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L
+        weight: 1
+      - path: Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L
+        weight: 1
+      - path: Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L/MiddleFinger4_L
+        weight: 1
+      - path: Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L/MiddleFinger4_L/MiddleFinger5_L
+        weight: 1
+      - path: Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L/MiddleFinger4_L/MiddleFinger5_L/MiddleFinger6_L
+        weight: 1
+      - path: Elbow_L/Wrist_L/PinkyFinger1_L
+        weight: 1
+      - path: Elbow_L/Wrist_L/PinkyFinger1_L/PinkyFinger2_L
+        weight: 1
+      - path: Elbow_L/Wrist_L/PinkyFinger1_L/PinkyFinger2_L/PinkyFinger3_L
+        weight: 1
+      - path: Elbow_L/Wrist_L/PinkyFinger1_L/PinkyFinger2_L/PinkyFinger3_L/PinkyFinger4_L
+        weight: 1
+      - path: Elbow_L/Wrist_L/PinkyFinger1_L/PinkyFinger2_L/PinkyFinger3_L/PinkyFinger4_L/PinkyFinger5_L
+        weight: 1
+      - path: Elbow_L/Wrist_L/PinkyFinger1_L/PinkyFinger2_L/PinkyFinger3_L/PinkyFinger4_L/PinkyFinger5_L/PinkyFinger6_L
+        weight: 1
+      - path: Elbow_L/Wrist_L/ThumbFinger1_L
+        weight: 1
+      - path: Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L
+        weight: 1
+      - path: Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L/ThumbFinger3_L
+        weight: 1
+      - path: Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L/ThumbFinger3_L/ThumbFinger4_L
+        weight: 1
+      - path: Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L/ThumbFinger3_L/ThumbFinger4_L/ThumbFinger5_L
+        weight: 1
+      - path: Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L/ThumbFinger3_L/ThumbFinger4_L/ThumbFinger5_L/ThumbFinger6_L
+        weight: 1
+      - path: hand_L
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

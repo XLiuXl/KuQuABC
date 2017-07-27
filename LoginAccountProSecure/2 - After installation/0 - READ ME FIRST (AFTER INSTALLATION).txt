@@ -1,0 +1,3 @@
+1 - Remove all the scenes from the build settings
+2 - Add all the scenes you will find below me (and in the folder "Admin" if you want an administration version)
+3 - Launch the scene called "Login"

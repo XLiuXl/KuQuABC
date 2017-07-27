@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Message</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+		<link rel="stylesheet" href="./CSS/Main.css" type="text/css" />
+		<script type="text/javascript" src="./Javascript/Utils/jquery.min.javascript"></script>
+		<script type="text/javascript" src="./Javascript/Utils/Sessvars.javascript"></script>
+	</head>
+	<body class="hidden">
+		<div id="RedirectionBlock" class="hidden">
+			<form id="RedirectionForm" action="./{REDIRECTION}.php" method="post" class="hidden">
+				<input id="SID" class="hidden" name="SID" type="text" value=""/><br/>
+				<input id="MESSAGE" class="hidden" name="MESSAGE" type="text" value="{MESSAGE}"/><br/>
+				<!-- BEGIN postdata -->
+				<input id="{postdata.id}" class="hidden" name="{postdata.name}" type="text" value="{postdata.value}"/><br/>
+				<!-- END postdata -->
+				<input id="SUBMIT" class="hidden" type="submit" value="Go"/>
+			</form>
+		</div>
+		
+		<script type="text/javascript">
+			jQuery(document).ready
+			(
+				function($)
+				{
+					if(typeof sessvars === 'undefined' || typeof sessvars.SecuritySession === 'undefined' || typeof sessvars.SecuritySession.SID === 'undefined' || typeof sessvars.SecuritySession.rsa_modulus === 'undefined' || typeof sessvars.SecuritySession.rsa_exponent === 'undefined' || typeof sessvars.SecuritySession.aes_key === 'undefined' || typeof sessvars.SecuritySession.aes_iv === 'undefined')
+					{
+						$('#RedirectionForm').submit();
+					}
+					else
+					{
+						$("#SID").val(sessvars.SecuritySession.SID);
+						$('#RedirectionForm').submit();
+					}
+				}
+			);
+		</script>
+	</body>
+</html>

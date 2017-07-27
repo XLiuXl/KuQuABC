@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Register</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+		<link rel="stylesheet" href="./CSS/Main.css" type="text/css" />
+		<link rel="stylesheet" href="./CSS/Register.css" type="text/css" />
+		<script type="text/javascript" src="./Javascript/Utils/jquery.min.javascript"></script>
+		<script type="text/javascript" src="./Javascript/Utils/RSA/jsbn.javascript"></script>
+		<script type="text/javascript" src="./Javascript/Utils/RSA/prng4.javascript"></script>
+		<script type="text/javascript" src="./Javascript/Utils/RSA/rng.javascript"></script>
+		<script type="text/javascript" src="./Javascript/Utils/RSA/rsa.javascript"></script>
+		<script type="text/javascript" src="./Javascript/Utils/RSA/base64.javascript"></script>
+		<script type="text/javascript" src="./Javascript/Utils/AES/pbkdf2.javascript"></script>
+		<script type="text/javascript" src="./Javascript/Utils/AES/sha256.javascript"></script>
+		<script type="text/javascript" src="./Javascript/Utils/AES/aes.javascript"></script>
+		<script type="text/javascript" src="./Javascript/Utils/Utils.javascript"></script>
+		<script type="text/javascript" src="./Javascript/Utils/Sessvars.javascript"></script>
+		<script type="text/javascript" src="./Javascript/Register.javascript"></script>
+	</head>
+	<body>
+		<div id="RegisterBlock" class="formBlock">
+			<form id="InputForm" action="./Server.php" method="post" class="form">
+				<label for="input_mail" class="label">Mail</label><br/>
+				<input id="input_mail" name="input_mail" type="text" value="" class="input" placeholder="No mail saved"/><br/>
+				<label for="input_username" class="label">Username</label><br/>
+				<input id="input_username" name="input_username" type="text" value="" class="input" placeholder="No username saved"/><br/>
+				
+				<div id="RedEagleIconBlock">
+					<img id="RedEagleIcon" src="./Resources/RedEagleIcon.png" alt="RedEagleIcon.png"/>
+				</div>
+				
+				<label for="input_password" class="label">Password</label><br/>
+				<input id="input_password" name="input_password" type="password" value="" class="input" placeholder="No password saved"/><br/>
+				<label for="input_password_confirmation" class="label">Confirm password</label><br/>
+				<input id="input_password_confirmation" name="input_password_confirmation" type="password" value="" class="input" placeholder="No password saved"/><br/>
+				<input id="input_submit" type="submit" value="Register" class="button"/>
+			</form>
+		</div>
+		<div id="RegisterBlock" class="hidden">
+			<form id="RegisterForm" action="./Server.php" method="post" class="hidden">
+				<input id="SID" name="SID" type="hidden" value=""/>
+				<input id="ACTION" name="ACTION" type="hidden" value="{ACTION}"/>
+				<input id="AES_KEYS" name="AES_KEYS" type="hidden" value=""/>
+				<input id="MAIL" name="MAIL" type="text" value=""/><br/>
+				<input id="USERNAME" name="USERNAME" type="text" value=""/><br/>
+				<input id="PASSWORD" name="PASSWORD" type="text" value=""/><br/>
+				<input id="SUBMIT" type="submit" value="Connection"/>
+			</form>
+		</div>
+		
+		<div id="backButton" class="linkBlock">
+			<a href="./Authentification.php" class="link">Back</a>
+		</div>
+		
+		<p id="ERROR" class="message"></p>
+		<p class="message">{MESSAGE}</p>
+	</body>
+</html>

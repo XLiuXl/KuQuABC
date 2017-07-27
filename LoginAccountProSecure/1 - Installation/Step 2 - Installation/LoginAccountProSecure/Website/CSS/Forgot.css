@@ -1,0 +1,25 @@
+
+#backButton
+{
+	float:left;
+	margin:0px;
+	margin-left:-330px;
+	margin-top:-321px;
+}
+#input_submit
+{
+	margin-top:50px;
+}
+
+#RedEagleIconBlock
+{
+	width:60px;
+	height:60px;
+	margin:auto;
+	margin-bottom:40px;
+}
+#RedEagleIcon
+{
+	max-width:100%;
+	max-height:100%;
+}

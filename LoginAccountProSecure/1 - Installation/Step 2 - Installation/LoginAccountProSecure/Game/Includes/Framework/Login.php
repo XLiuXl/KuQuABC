@@ -1,0 +1,31 @@
+<?php
+// Here we check if we are called from 'Server.php' script : in any other cases WE LEAVE !
+if(!isset($ServerScriptCalled)) { exit(0); }
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//	GOAL : Check if authentification is correct and validate it
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+if($connection_granted == 1)	// If the connection is granted
+{
+	// SUCCESS
+	$_SESSION['connected'] = true;
+	$_SESSION['username'] = $username;
+	$_SESSION['user_id'] = getUsernameID($username);
+	$_SESSION['user_ip'] = $_SERVER['REMOTE_ADDR'];
+	
+	$serverDatas = array(
+		"Connection granted.",
+		$SID
+	);
+	
+	sendArrayAndFinish($serverDatas);
+}
+
+end_script("ERROR: authentification failed.");
+
+
+?>

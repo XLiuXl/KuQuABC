@@ -1,0 +1,9 @@
+player=MyPlayer
+level=12
+money=1000
+whatever=youLike   with spaces too no problem
+### Special characters {} \\\aaa
+Working
+$£¤*µ()[]#""''
+Done
+Overrr

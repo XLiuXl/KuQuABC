@@ -1,0 +1,409 @@
+fileFormatVersion: 2
+guid: d7c13aca6712b3449b1b510443d81fab
+timeCreated: 1470887063
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Ankle_L
+    100002: Ankle_R
+    100004: AnklePart1_L
+    100006: AnklePart1_R
+    100008: Chest
+    100010: ChestPart1_R
+    100012: Elbow_L
+    100014: Elbow_R
+    100016: head
+    100018: headEnd
+    100020: Hip_L
+    100022: Hip_R
+    100024: HipPart1_L
+    100026: HipPart1_R
+    100028: HipPart2_L
+    100030: HipPart2_R
+    100032: Knee_L
+    100034: Knee_R
+    100036: KneePart1_L
+    100038: KneePart1_R
+    100040: MiddleFinger1_L
+    100042: MiddleFinger1_R
+    100044: MiddleFinger2_L
+    100046: MiddleFinger2_R
+    100048: MiddleFinger3_L
+    100050: MiddleFinger3_R
+    100052: MiddleFinger4_L
+    100054: MiddleFinger4_R
+    100056: MiddleFinger5_L
+    100058: MiddleFinger5_R
+    100060: MiddleFinger6_L
+    100062: MiddleFinger6_R
+    100064: Neck
+    100066: NecktPart1
+    100068: NecktPart2
+    100070: NecktPart2 1
+    100072: NecktPart3
+    100074: PinkyFinger1_L
+    100076: PinkyFinger1_R
+    100078: PinkyFinger2_L
+    100080: PinkyFinger2_R
+    100082: PinkyFinger3_L
+    100084: PinkyFinger3_R
+    100086: PinkyFinger4_L
+    100088: PinkyFinger4_R
+    100090: PinkyFinger5_L
+    100092: PinkyFinger5_R
+    100094: PinkyFinger6_L
+    100096: PinkyFinger6_R
+    100098: Robot_Spine
+    100100: Robot_SpinePart1
+    100102: //RootNode
+    100104: Scapula_L
+    100106: Scapula_R
+    100108: ScapulaPart1_L
+    100110: ScapulaPart1_R
+    100112: Shoulder_L
+    100114: Shoulder_R
+    100116: ShoulderPart1_L
+    100118: ShoulderPart1_R
+    100120: ThumbFinger1_L
+    100122: ThumbFinger1_R
+    100124: ThumbFinger2_L
+    100126: ThumbFinger2_R
+    100128: ThumbFinger3_L
+    100130: ThumbFinger3_R
+    100132: ThumbFinger4_L
+    100134: ThumbFinger4_R
+    100136: ThumbFinger5_L
+    100138: ThumbFinger5_R
+    100140: ThumbFinger6_L
+    100142: ThumbFinger6_R
+    100144: Toes_L
+    100146: Toes_R
+    100148: Wrist_L
+    100150: Wrist_R
+    400000: Ankle_L
+    400002: Ankle_R
+    400004: AnklePart1_L
+    400006: AnklePart1_R
+    400008: Chest
+    400010: ChestPart1_R
+    400012: Elbow_L
+    400014: Elbow_R
+    400016: head
+    400018: headEnd
+    400020: Hip_L
+    400022: Hip_R
+    400024: HipPart1_L
+    400026: HipPart1_R
+    400028: HipPart2_L
+    400030: HipPart2_R
+    400032: Knee_L
+    400034: Knee_R
+    400036: KneePart1_L
+    400038: KneePart1_R
+    400040: MiddleFinger1_L
+    400042: MiddleFinger1_R
+    400044: MiddleFinger2_L
+    400046: MiddleFinger2_R
+    400048: MiddleFinger3_L
+    400050: MiddleFinger3_R
+    400052: MiddleFinger4_L
+    400054: MiddleFinger4_R
+    400056: MiddleFinger5_L
+    400058: MiddleFinger5_R
+    400060: MiddleFinger6_L
+    400062: MiddleFinger6_R
+    400064: Neck
+    400066: NecktPart1
+    400068: NecktPart2
+    400070: NecktPart2 1
+    400072: NecktPart3
+    400074: PinkyFinger1_L
+    400076: PinkyFinger1_R
+    400078: PinkyFinger2_L
+    400080: PinkyFinger2_R
+    400082: PinkyFinger3_L
+    400084: PinkyFinger3_R
+    400086: PinkyFinger4_L
+    400088: PinkyFinger4_R
+    400090: PinkyFinger5_L
+    400092: PinkyFinger5_R
+    400094: PinkyFinger6_L
+    400096: PinkyFinger6_R
+    400098: Robot_Spine
+    400100: Robot_SpinePart1
+    400102: //RootNode
+    400104: Scapula_L
+    400106: Scapula_R
+    400108: ScapulaPart1_L
+    400110: ScapulaPart1_R
+    400112: Shoulder_L
+    400114: Shoulder_R
+    400116: ShoulderPart1_L
+    400118: ShoulderPart1_R
+    400120: ThumbFinger1_L
+    400122: ThumbFinger1_R
+    400124: ThumbFinger2_L
+    400126: ThumbFinger2_R
+    400128: ThumbFinger3_L
+    400130: ThumbFinger3_R
+    400132: ThumbFinger4_L
+    400134: ThumbFinger4_R
+    400136: ThumbFinger5_L
+    400138: ThumbFinger5_R
+    400140: ThumbFinger6_L
+    400142: ThumbFinger6_R
+    400144: Toes_L
+    400146: Toes_R
+    400148: Wrist_L
+    400150: Wrist_R
+    7400000: Pick
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Pick
+      takeName: Take 001
+      firstFrame: 740
+      lastFrame: 800
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robot_SpinePart1
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/Neck
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/Neck/NecktPart2
+          1
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/Neck/NecktPart2
+          1/head
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/Neck/NecktPart2
+          1/head/headEnd
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart2
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart2/Scapula_L
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart2/Scapula_L/ScapulaPart1_L
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart2/Scapula_L/ScapulaPart1_L/Shoulder_L
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart2/Scapula_L/ScapulaPart1_L/Shoulder_L/ShoulderPart1_L
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart2/Scapula_L/ScapulaPart1_L/Shoulder_L/ShoulderPart1_L/Elbow_L
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart2/Scapula_L/ScapulaPart1_L/Shoulder_L/ShoulderPart1_L/Elbow_L/Wrist_L
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart2/Scapula_L/ScapulaPart1_L/Shoulder_L/ShoulderPart1_L/Elbow_L/Wrist_L/MiddleFinger1_L
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart2/Scapula_L/ScapulaPart1_L/Shoulder_L/ShoulderPart1_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart2/Scapula_L/ScapulaPart1_L/Shoulder_L/ShoulderPart1_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart2/Scapula_L/ScapulaPart1_L/Shoulder_L/ShoulderPart1_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L/MiddleFinger4_L
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart2/Scapula_L/ScapulaPart1_L/Shoulder_L/ShoulderPart1_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L/MiddleFinger4_L/MiddleFinger5_L
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart2/Scapula_L/ScapulaPart1_L/Shoulder_L/ShoulderPart1_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L/MiddleFinger4_L/MiddleFinger5_L/MiddleFinger6_L
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart2/Scapula_L/ScapulaPart1_L/Shoulder_L/ShoulderPart1_L/Elbow_L/Wrist_L/PinkyFinger1_L
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart2/Scapula_L/ScapulaPart1_L/Shoulder_L/ShoulderPart1_L/Elbow_L/Wrist_L/PinkyFinger1_L/PinkyFinger2_L
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart2/Scapula_L/ScapulaPart1_L/Shoulder_L/ShoulderPart1_L/Elbow_L/Wrist_L/PinkyFinger1_L/PinkyFinger2_L/PinkyFinger3_L
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart2/Scapula_L/ScapulaPart1_L/Shoulder_L/ShoulderPart1_L/Elbow_L/Wrist_L/PinkyFinger1_L/PinkyFinger2_L/PinkyFinger3_L/PinkyFinger4_L
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart2/Scapula_L/ScapulaPart1_L/Shoulder_L/ShoulderPart1_L/Elbow_L/Wrist_L/PinkyFinger1_L/PinkyFinger2_L/PinkyFinger3_L/PinkyFinger4_L/PinkyFinger5_L
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart2/Scapula_L/ScapulaPart1_L/Shoulder_L/ShoulderPart1_L/Elbow_L/Wrist_L/PinkyFinger1_L/PinkyFinger2_L/PinkyFinger3_L/PinkyFinger4_L/PinkyFinger5_L/PinkyFinger6_L
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart2/Scapula_L/ScapulaPart1_L/Shoulder_L/ShoulderPart1_L/Elbow_L/Wrist_L/ThumbFinger1_L
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart2/Scapula_L/ScapulaPart1_L/Shoulder_L/ShoulderPart1_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart2/Scapula_L/ScapulaPart1_L/Shoulder_L/ShoulderPart1_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L/ThumbFinger3_L
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart2/Scapula_L/ScapulaPart1_L/Shoulder_L/ShoulderPart1_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L/ThumbFinger3_L/ThumbFinger4_L
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart2/Scapula_L/ScapulaPart1_L/Shoulder_L/ShoulderPart1_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L/ThumbFinger3_L/ThumbFinger4_L/ThumbFinger5_L
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart2/Scapula_L/ScapulaPart1_L/Shoulder_L/ShoulderPart1_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L/ThumbFinger3_L/ThumbFinger4_L/ThumbFinger5_L/ThumbFinger6_L
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart3
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart3/Scapula_R
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart3/Scapula_R/ScapulaPart1_R
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart3/Scapula_R/ScapulaPart1_R/Shoulder_R
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart3/Scapula_R/ScapulaPart1_R/Shoulder_R/ShoulderPart1_R
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart3/Scapula_R/ScapulaPart1_R/Shoulder_R/ShoulderPart1_R/Elbow_R
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart3/Scapula_R/ScapulaPart1_R/Shoulder_R/ShoulderPart1_R/Elbow_R/Wrist_R
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart3/Scapula_R/ScapulaPart1_R/Shoulder_R/ShoulderPart1_R/Elbow_R/Wrist_R/MiddleFinger1_R
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart3/Scapula_R/ScapulaPart1_R/Shoulder_R/ShoulderPart1_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger2_R
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart3/Scapula_R/ScapulaPart1_R/Shoulder_R/ShoulderPart1_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart3/Scapula_R/ScapulaPart1_R/Shoulder_R/ShoulderPart1_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R/MiddleFinger4_R
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart3/Scapula_R/ScapulaPart1_R/Shoulder_R/ShoulderPart1_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R/MiddleFinger4_R/MiddleFinger5_R
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart3/Scapula_R/ScapulaPart1_R/Shoulder_R/ShoulderPart1_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R/MiddleFinger4_R/MiddleFinger5_R/MiddleFinger6_R
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart3/Scapula_R/ScapulaPart1_R/Shoulder_R/ShoulderPart1_R/Elbow_R/Wrist_R/PinkyFinger1_R
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart3/Scapula_R/ScapulaPart1_R/Shoulder_R/ShoulderPart1_R/Elbow_R/Wrist_R/PinkyFinger1_R/PinkyFinger2_R
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart3/Scapula_R/ScapulaPart1_R/Shoulder_R/ShoulderPart1_R/Elbow_R/Wrist_R/PinkyFinger1_R/PinkyFinger2_R/PinkyFinger3_R
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart3/Scapula_R/ScapulaPart1_R/Shoulder_R/ShoulderPart1_R/Elbow_R/Wrist_R/PinkyFinger1_R/PinkyFinger2_R/PinkyFinger3_R/PinkyFinger4_R
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart3/Scapula_R/ScapulaPart1_R/Shoulder_R/ShoulderPart1_R/Elbow_R/Wrist_R/PinkyFinger1_R/PinkyFinger2_R/PinkyFinger3_R/PinkyFinger4_R/PinkyFinger5_R
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart3/Scapula_R/ScapulaPart1_R/Shoulder_R/ShoulderPart1_R/Elbow_R/Wrist_R/PinkyFinger1_R/PinkyFinger2_R/PinkyFinger3_R/PinkyFinger4_R/PinkyFinger5_R/PinkyFinger6_R
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart3/Scapula_R/ScapulaPart1_R/Shoulder_R/ShoulderPart1_R/Elbow_R/Wrist_R/ThumbFinger1_R
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart3/Scapula_R/ScapulaPart1_R/Shoulder_R/ShoulderPart1_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart3/Scapula_R/ScapulaPart1_R/Shoulder_R/ShoulderPart1_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R/ThumbFinger3_R
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart3/Scapula_R/ScapulaPart1_R/Shoulder_R/ShoulderPart1_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R/ThumbFinger3_R/ThumbFinger4_R
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart3/Scapula_R/ScapulaPart1_R/Shoulder_R/ShoulderPart1_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R/ThumbFinger3_R/ThumbFinger4_R/ThumbFinger5_R
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/ChestPart1_R/Chest/NecktPart1/NecktPart3/Scapula_R/ScapulaPart1_R/Shoulder_R/ShoulderPart1_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R/ThumbFinger3_R/ThumbFinger4_R/ThumbFinger5_R/ThumbFinger6_R
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/Hip_L
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/Hip_L/HipPart1_L
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/Hip_L/HipPart1_L/HipPart2_L
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/Hip_L/HipPart1_L/HipPart2_L/Knee_L
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/Hip_L/HipPart1_L/HipPart2_L/Knee_L/KneePart1_L
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/Hip_L/HipPart1_L/HipPart2_L/Knee_L/KneePart1_L/Ankle_L
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/Hip_L/HipPart1_L/HipPart2_L/Knee_L/KneePart1_L/Ankle_L/AnklePart1_L
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/Hip_L/HipPart1_L/HipPart2_L/Knee_L/KneePart1_L/Ankle_L/AnklePart1_L/Toes_L
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/Hip_R
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/Hip_R/HipPart1_R
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/Hip_R/HipPart1_R/HipPart2_R
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/Hip_R/HipPart1_R/HipPart2_R/Knee_R
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/Hip_R/HipPart1_R/HipPart2_R/Knee_R/KneePart1_R
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/Hip_R/HipPart1_R/HipPart2_R/Knee_R/KneePart1_R/Ankle_R
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/Hip_R/HipPart1_R/HipPart2_R/Knee_R/KneePart1_R/Ankle_R/AnklePart1_R
+        weight: 1
+      - path: Robot_SpinePart1/Robot_Spine/Hip_R/HipPart1_R/HipPart2_R/Knee_R/KneePart1_R/Ankle_R/AnklePart1_R/Toes_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

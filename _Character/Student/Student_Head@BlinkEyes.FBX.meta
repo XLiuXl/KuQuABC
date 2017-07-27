@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: 58b1c0d4479e97240af647d1c796509f
+timeCreated: 1470817702
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: eye
+    100002: eye_L
+    100004: eye_R
+    100006: eyePart1_L
+    100008: eyePart1_R
+    100010: eyePart2_L
+    100012: eyePart2_R
+    100014: eyePart3_L
+    100016: eyePart3_R
+    100018: eyePart4_L
+    100020: eyePart5_L
+    100022: eyePart5_R
+    100024: eyePart6_L
+    100026: eyePart6_R
+    100028: eyePart7_L
+    100030: eyePart7_R
+    100032: eyePart_R
+    100034: head
+    100036: NecktPart2
+    100038: //RootNode
+    400000: eye
+    400002: eye_L
+    400004: eye_R
+    400006: eyePart1_L
+    400008: eyePart1_R
+    400010: eyePart2_L
+    400012: eyePart2_R
+    400014: eyePart3_L
+    400016: eyePart3_R
+    400018: eyePart4_L
+    400020: eyePart5_L
+    400022: eyePart5_R
+    400024: eyePart6_L
+    400026: eyePart6_R
+    400028: eyePart7_L
+    400030: eyePart7_R
+    400032: eyePart_R
+    400034: head
+    400036: NecktPart2
+    400038: //RootNode
+    2300000: head
+    3300000: head
+    4300000: head
+    4300002: eye
+    7400000: BlinkEyes
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: eye
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: BlinkEyes
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 126.00001
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: eye
+        weight: 1
+      - path: head
+        weight: 1
+      - path: NecktPart2
+        weight: 1
+      - path: NecktPart2/eye_L
+        weight: 1
+      - path: NecktPart2/eye_L/eyePart1_L
+        weight: 1
+      - path: NecktPart2/eye_L/eyePart1_L/eyePart2_L
+        weight: 1
+      - path: NecktPart2/eye_L/eyePart1_L/eyePart2_L/eyePart3_L
+        weight: 1
+      - path: NecktPart2/eye_L/eyePart1_L/eyePart2_L/eyePart6_L
+        weight: 1
+      - path: NecktPart2/eye_L/eyePart1_L/eyePart2_L/eyePart6_L/eyePart7_L
+        weight: 1
+      - path: NecktPart2/eye_L/eyePart1_L/eyePart4_L
+        weight: 1
+      - path: NecktPart2/eye_L/eyePart1_L/eyePart4_L/eyePart5_L
+        weight: 1
+      - path: NecktPart2/eye_R
+        weight: 1
+      - path: NecktPart2/eye_R/eyePart1_R
+        weight: 1
+      - path: NecktPart2/eye_R/eyePart1_R/eyePart2_R
+        weight: 1
+      - path: NecktPart2/eye_R/eyePart1_R/eyePart2_R/eyePart3_R
+        weight: 1
+      - path: NecktPart2/eye_R/eyePart1_R/eyePart2_R/eyePart6_R
+        weight: 1
+      - path: NecktPart2/eye_R/eyePart1_R/eyePart2_R/eyePart6_R/eyePart7_R
+        weight: 1
+      - path: NecktPart2/eye_R/eyePart1_R/eyePart_R
+        weight: 1
+      - path: NecktPart2/eye_R/eyePart1_R/eyePart_R/eyePart5_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
